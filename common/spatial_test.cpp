@@ -1,12 +1,12 @@
-#include "voxeloo/common/spatial.hpp"
+#include "common/spatial.hpp"
 
 #include <array>
 #include <catch2/catch.hpp>
 #include <fstream>
 #include <random>
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/random.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/random.hpp"
 
 namespace voxeloo {
 

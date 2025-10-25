@@ -1,4 +1,4 @@
-#include "voxeloo/py_ext/rasterization.hpp"
+#include "py_ext/rasterization.hpp"
 
 #include <pybind11/numpy.h>
 #include <pybind11/pybind11.h>
@@ -8,8 +8,8 @@
 #include <string>
 #include <tuple>
 
-#include "voxeloo/biomes/rasterization.hpp"
-#include "voxeloo/common/errors.hpp"
+#include "biomes/rasterization.hpp"
+#include "common/errors.hpp"
 
 namespace py = pybind11;
 

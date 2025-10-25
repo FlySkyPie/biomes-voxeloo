@@ -4,18 +4,18 @@
 #include <cereal/types/unordered_map.hpp>
 #include <vector>
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/voxels.hpp"
-#include "voxeloo/galois/blocks.hpp"
-#include "voxeloo/galois/csg.hpp"
-#include "voxeloo/galois/florae.hpp"
-#include "voxeloo/galois/glass.hpp"
-#include "voxeloo/galois/muck.hpp"
-#include "voxeloo/galois/shapes.hpp"
-#include "voxeloo/galois/terrain.hpp"
-#include "voxeloo/tensors/arrays.hpp"
-#include "voxeloo/tensors/sparse.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/voxels.hpp"
+#include "galois/blocks.hpp"
+#include "galois/csg.hpp"
+#include "galois/florae.hpp"
+#include "galois/glass.hpp"
+#include "galois/muck.hpp"
+#include "galois/shapes.hpp"
+#include "galois/terrain.hpp"
+#include "tensors/arrays.hpp"
+#include "tensors/sparse.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::galois::groups {
 

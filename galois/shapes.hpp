@@ -5,18 +5,18 @@
 #include <cmath>
 #include <vector>
 
-#include "voxeloo/biomes/culling.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/macros.hpp"
-#include "voxeloo/common/transport.hpp"
-#include "voxeloo/common/voxels.hpp"
-#include "voxeloo/galois/blocks.hpp"
-#include "voxeloo/galois/collision.hpp"
-#include "voxeloo/galois/conv.hpp"
-#include "voxeloo/galois/glass.hpp"
-#include "voxeloo/galois/utils.hpp"
-#include "voxeloo/tensors/routines.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include "biomes/culling.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/macros.hpp"
+#include "common/transport.hpp"
+#include "common/voxels.hpp"
+#include "galois/blocks.hpp"
+#include "galois/collision.hpp"
+#include "galois/conv.hpp"
+#include "galois/glass.hpp"
+#include "galois/utils.hpp"
+#include "tensors/routines.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo {
 template <typename Archive, typename T>

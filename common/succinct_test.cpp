@@ -1,10 +1,10 @@
-#include "voxeloo/common/succinct.hpp"
+#include "common/succinct.hpp"
 
 #include <algorithm>
 #include <catch2/catch.hpp>
 #include <unordered_map>
 
-#include "voxeloo/common/random.hpp"
+#include "common/random.hpp"
 
 namespace voxeloo {
 

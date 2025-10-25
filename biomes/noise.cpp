@@ -1,4 +1,4 @@
-#include "voxeloo/biomes/noise.hpp"
+#include "biomes/noise.hpp"
 
 namespace voxeloo::noise {
 

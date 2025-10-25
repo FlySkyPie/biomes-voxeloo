@@ -1,4 +1,4 @@
-#include "voxeloo/common/quadifier.hpp"
+#include "common/quadifier.hpp"
 
 namespace voxeloo::quadifier {
 

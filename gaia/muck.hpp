@@ -1,9 +1,9 @@
 #pragma once
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/voxels.hpp"
-#include "voxeloo/gaia/maps.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/voxels.hpp"
+#include "gaia/maps.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::gaia {
 

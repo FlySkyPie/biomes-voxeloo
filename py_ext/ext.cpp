@@ -2,22 +2,22 @@
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
 
-#include "voxeloo/py_ext/biomes.hpp"
-#include "voxeloo/py_ext/blocks.hpp"
-#include "voxeloo/py_ext/culling.hpp"
-#include "voxeloo/py_ext/galois.hpp"
-#include "voxeloo/py_ext/geometry.hpp"
-#include "voxeloo/py_ext/meshes.hpp"
-#include "voxeloo/py_ext/noise.hpp"
-#include "voxeloo/py_ext/primitives.hpp"
-#include "voxeloo/py_ext/rasterization.hpp"
-#include "voxeloo/py_ext/rays.hpp"
-#include "voxeloo/py_ext/runs.hpp"
-#include "voxeloo/py_ext/shards.hpp"
-#include "voxeloo/py_ext/spatial.hpp"
-#include "voxeloo/py_ext/tensors.hpp"
-#include "voxeloo/py_ext/voronoi.hpp"
-#include "voxeloo/py_ext/voxels.hpp"
+#include "py_ext/biomes.hpp"
+#include "py_ext/blocks.hpp"
+#include "py_ext/culling.hpp"
+#include "py_ext/galois.hpp"
+#include "py_ext/geometry.hpp"
+#include "py_ext/meshes.hpp"
+#include "py_ext/noise.hpp"
+#include "py_ext/primitives.hpp"
+#include "py_ext/rasterization.hpp"
+#include "py_ext/rays.hpp"
+#include "py_ext/runs.hpp"
+#include "py_ext/shards.hpp"
+#include "py_ext/spatial.hpp"
+#include "py_ext/tensors.hpp"
+#include "py_ext/voronoi.hpp"
+#include "py_ext/voxels.hpp"
 
 namespace py = pybind11;
 

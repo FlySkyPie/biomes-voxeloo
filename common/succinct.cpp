@@ -1,4 +1,4 @@
-#include "voxeloo/common/succinct.hpp"
+#include "common/succinct.hpp"
 
 namespace voxeloo::succinct {
 

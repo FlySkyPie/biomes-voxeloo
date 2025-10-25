@@ -1,4 +1,4 @@
-#include "voxeloo/py_ext/primitives.hpp"
+#include "py_ext/primitives.hpp"
 
 #include <pybind11/numpy.h>
 #include <pybind11/pybind11.h>
@@ -8,8 +8,8 @@
 #include <string>
 #include <tuple>
 
-#include "voxeloo/biomes/primitives.hpp"
-#include "voxeloo/common/errors.hpp"
+#include "biomes/primitives.hpp"
+#include "common/errors.hpp"
 
 namespace py = pybind11;
 

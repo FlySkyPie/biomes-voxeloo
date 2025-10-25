@@ -1,6 +1,6 @@
-#include "voxeloo/common/boxifier.hpp"
+#include "common/boxifier.hpp"
 
-#include "voxeloo/common/format.hpp"
+#include "common/format.hpp"
 
 namespace voxeloo::boxifier {
 

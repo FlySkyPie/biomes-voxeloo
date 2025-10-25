@@ -1,17 +1,17 @@
 #include <emscripten/bind.h>
 
-#include "voxeloo/js_ext/anima.hpp"
-#include "voxeloo/js_ext/biomes.hpp"
-#include "voxeloo/js_ext/buffers.hpp"
-#include "voxeloo/js_ext/common.hpp"
-#include "voxeloo/js_ext/culling.hpp"
-#include "voxeloo/js_ext/gaia.hpp"
-#include "voxeloo/js_ext/galois.hpp"
-#include "voxeloo/js_ext/mapping.hpp"
-#include "voxeloo/js_ext/march.hpp"
-#include "voxeloo/js_ext/shards.hpp"
-#include "voxeloo/js_ext/tensors.hpp"
-#include "voxeloo/js_ext/voxels.hpp"
+#include "js_ext/anima.hpp"
+#include "js_ext/biomes.hpp"
+#include "js_ext/buffers.hpp"
+#include "js_ext/common.hpp"
+#include "js_ext/culling.hpp"
+#include "js_ext/gaia.hpp"
+#include "js_ext/galois.hpp"
+#include "js_ext/mapping.hpp"
+#include "js_ext/march.hpp"
+#include "js_ext/shards.hpp"
+#include "js_ext/tensors.hpp"
+#include "js_ext/voxels.hpp"
 
 EMSCRIPTEN_BINDINGS(voxeloo_module) {
   voxeloo::js::bind();

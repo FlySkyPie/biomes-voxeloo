@@ -1,11 +1,11 @@
-#include "voxeloo/py_ext/noise.hpp"
+#include "py_ext/noise.hpp"
 
 #include <pybind11/numpy.h>
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
 
-#include "voxeloo/biomes/noise.hpp"
-#include "voxeloo/common/errors.hpp"
+#include "biomes/noise.hpp"
+#include "common/errors.hpp"
 
 namespace py = pybind11;
 

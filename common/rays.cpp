@@ -1,6 +1,6 @@
-#include "voxeloo/common/rays.hpp"
+#include "common/rays.hpp"
 
-#include "voxeloo/common/voxels.hpp"
+#include "common/voxels.hpp"
 
 namespace voxeloo::rays {
 

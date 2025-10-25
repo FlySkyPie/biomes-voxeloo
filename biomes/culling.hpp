@@ -4,10 +4,10 @@
 #include <cstdint>
 #include <vector>
 
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/hull.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include "common/errors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/hull.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::culling {
 

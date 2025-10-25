@@ -1,11 +1,11 @@
-#include "voxeloo/js_ext/march.hpp"
+#include "js_ext/march.hpp"
 
 #include <emscripten/bind.h>
 #include <emscripten/val.h>
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/voxels.hpp"
-#include "voxeloo/js_ext/common.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/voxels.hpp"
+#include "js_ext/common.hpp"
 
 namespace voxeloo::march::js {
 

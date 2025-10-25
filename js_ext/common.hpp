@@ -6,9 +6,9 @@
 #include <array>
 #include <cstdint>
 
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/format.hpp"
-#include "voxeloo/common/timers.hpp"
+#include "common/errors.hpp"
+#include "common/format.hpp"
+#include "common/timers.hpp"
 
 namespace voxeloo::js {
 

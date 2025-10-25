@@ -1,10 +1,10 @@
-#include "voxeloo/common/subbox.hpp"
+#include "common/subbox.hpp"
 
 #include <iostream>
 #include <vector>
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/subquad.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/subquad.hpp"
 
 namespace voxeloo::subbox {
 

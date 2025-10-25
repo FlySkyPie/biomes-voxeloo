@@ -5,8 +5,8 @@
 #include <memory>
 #include <vector>
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/spatial.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/spatial.hpp"
 
 namespace voxeloo::primitives {
 

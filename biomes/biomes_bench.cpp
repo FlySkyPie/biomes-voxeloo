@@ -1,6 +1,6 @@
 #include <catch2/catch.hpp>
 
-#include "voxeloo/biomes/biomes.hpp"
+#include "biomes/biomes.hpp"
 
 namespace voxeloo {
 

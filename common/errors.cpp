@@ -1,4 +1,4 @@
-#include "voxeloo/common/errors.hpp"
+#include "common/errors.hpp"
 
 #include <functional>
 #include <vector>

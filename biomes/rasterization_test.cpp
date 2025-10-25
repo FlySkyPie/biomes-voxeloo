@@ -1,8 +1,8 @@
-#include "voxeloo/biomes/rasterization.hpp"
+#include "biomes/rasterization.hpp"
 
 #include <catch2/catch.hpp>
 
-#include "voxeloo/common/geometry.hpp"
+#include <VoxelooGeometry/geometry.hpp>
 
 using namespace voxeloo;                 // NOLINT
 using namespace voxeloo::rasterization;  // NOLINT

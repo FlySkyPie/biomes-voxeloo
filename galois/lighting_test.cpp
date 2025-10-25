@@ -1,10 +1,10 @@
-#include "voxeloo/galois/lighting.hpp"
+#include "galois/lighting.hpp"
 
 #include <catch2/catch.hpp>
 
-#include "voxeloo/galois/gen/light_kernel.hpp"
-#include "voxeloo/tensors/sparse.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include "galois/gen/light_kernel.hpp"
+#include "tensors/sparse.hpp"
+#include "tensors/tensors.hpp"
 
 using namespace voxeloo;          // NOLINT
 using namespace voxeloo::galois;  // NOLINT

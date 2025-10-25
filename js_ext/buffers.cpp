@@ -1,4 +1,4 @@
-#include "voxeloo/js_ext/buffers.hpp"
+#include "js_ext/buffers.hpp"
 
 #include <emscripten/bind.h>
 #include <emscripten/val.h>
@@ -6,8 +6,8 @@
 #include <cstdint>
 #include <vector>
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/tensors/buffers.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "tensors/buffers.hpp"
 
 namespace voxeloo::buffers::js {
 

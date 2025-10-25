@@ -5,13 +5,13 @@
 #include <span>
 #include <vector>
 
-#include "voxeloo/common/bits.hpp"
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/galois/gen/light_kernel.hpp"
-#include "voxeloo/galois/sbo.hpp"
-#include "voxeloo/galois/shapes.hpp"
-#include "voxeloo/tensors/routines.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include "common/bits.hpp"
+#include "common/errors.hpp"
+#include "galois/gen/light_kernel.hpp"
+#include "galois/sbo.hpp"
+#include "galois/shapes.hpp"
+#include "tensors/routines.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::galois::lighting {
 

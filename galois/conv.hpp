@@ -3,10 +3,10 @@
 #include <algorithm>
 #include <vector>
 
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/tensors/routines.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include "common/errors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "tensors/routines.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::galois::conv {
 

@@ -1,10 +1,10 @@
 #pragma once
 
-#include "voxeloo/biomes/biomes.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/spatial.hpp"
-#include "voxeloo/galois/terrain.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include "biomes/biomes.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/spatial.hpp"
+#include "galois/terrain.hpp"
+#include "tensors/tensors.hpp"
 
 // This file contains routines to enable migrating off the biomes VolumeBlock
 // and SparseBlock data structures in favor of using the tensors library.

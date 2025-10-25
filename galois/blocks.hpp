@@ -7,15 +7,15 @@
 #include <numeric>
 #include <vector>
 
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/hashing.hpp"
-#include "voxeloo/common/utils.hpp"
-#include "voxeloo/galois/florae.hpp"
-#include "voxeloo/galois/material_properties.hpp"
-#include "voxeloo/galois/muck.hpp"
-#include "voxeloo/galois/sbo.hpp"
-#include "voxeloo/tensors/routines.hpp"
-#include "voxeloo/tensors/sparse.hpp"
+#include "common/errors.hpp"
+#include "common/hashing.hpp"
+#include "common/utils.hpp"
+#include "galois/florae.hpp"
+#include "galois/material_properties.hpp"
+#include "galois/muck.hpp"
+#include "galois/sbo.hpp"
+#include "tensors/routines.hpp"
+#include "tensors/sparse.hpp"
 
 namespace voxeloo::galois::blocks {
 

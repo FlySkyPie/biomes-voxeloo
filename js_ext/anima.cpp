@@ -1,4 +1,4 @@
-#include "voxeloo/js_ext/anima.hpp"
+#include "js_ext/anima.hpp"
 
 #include <emscripten/bind.h>
 #include <emscripten/val.h>
@@ -6,7 +6,7 @@
 #include <memory>
 #include <string>
 
-#include "voxeloo/anima/find_surfaces.hpp"
+#include "anima/find_surfaces.hpp"
 
 namespace voxeloo::anima::js {
 

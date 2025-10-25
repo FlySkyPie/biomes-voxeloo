@@ -159,7 +159,7 @@ setup(
         BazelExtension(
             "voxeloo",
             "//voxeloo/py_ext:py_ext.so",
-            "voxeloo/py_ext/py_ext.so",
+            "py_ext/py_ext.so",
         ),
     ],
     cmdclass={"build_ext": BazelBuild, "install": InstallCommand},

@@ -1,9 +1,10 @@
 #include <algorithm>
-#include <catch2/catch.hpp>
 #include <cmath>
 #include <random>
 
-#include "voxeloo/common/blocks.hpp"
+#include <catch2/catch.hpp>
+
+#include "common/blocks.hpp"
 
 namespace voxeloo {
 

@@ -5,7 +5,7 @@
 #include <string>
 #include <string_view>
 
-#include "voxeloo/common/errors.hpp"
+#include "common/errors.hpp"
 
 namespace voxeloo::js::memory {
 

@@ -1,10 +1,10 @@
-#include "voxeloo/common/hull.hpp"
+#include "common/hull.hpp"
 
 #include <vector>
 
 #include "catch2/catch.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/random.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/random.hpp"
 
 namespace voxeloo::hull {
 

@@ -1,4 +1,4 @@
-#include "voxeloo/py_ext/meshes.hpp"
+#include "py_ext/meshes.hpp"
 
 #include <pybind11/numpy.h>
 #include <pybind11/pybind11.h>
@@ -9,17 +9,17 @@
 #include <optional>
 #include <stdexcept>
 
-#include "voxeloo/biomes/rasterization.hpp"
-#include "voxeloo/common/blocks.hpp"
-#include "voxeloo/common/colors.hpp"
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/meshes.hpp"
-#include "voxeloo/common/spatial.hpp"
-#include "voxeloo/common/threads.hpp"
-#include "voxeloo/common/transport.hpp"
-#include "voxeloo/common/voxels.hpp"
-#include "voxeloo/third_party/tomasakeninemoeller/tribox3.h"
+#include "biomes/rasterization.hpp"
+#include "common/blocks.hpp"
+#include "common/colors.hpp"
+#include "common/errors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/meshes.hpp"
+#include "common/spatial.hpp"
+#include "common/threads.hpp"
+#include "common/transport.hpp"
+#include "common/voxels.hpp"
+#include "third_party/tomasakeninemoeller/tribox3.h"
 
 namespace py = pybind11;
 

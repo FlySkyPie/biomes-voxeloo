@@ -1,9 +1,9 @@
-#include "voxeloo/py_ext/geometry.hpp"
+#include "py_ext/geometry.hpp"
 
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
 
-#include "voxeloo/common/geometry.hpp"
+#include <VoxelooGeometry/geometry.hpp>
 
 namespace py = pybind11;
 

@@ -1,7 +1,7 @@
-#include "voxeloo/gaia/terrain.hpp"
+#include "gaia/terrain.hpp"
 
-#include "voxeloo/common/voxels.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include "common/voxels.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::gaia {
 

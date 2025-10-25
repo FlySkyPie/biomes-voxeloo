@@ -1,8 +1,8 @@
-#include "voxeloo/common/transport.hpp"
+#include "common/transport.hpp"
 
 #include <string>
 
-#include "voxeloo/common/errors.hpp"
+#include "common/errors.hpp"
 #include "zstd.h"
 
 namespace voxeloo::transport {

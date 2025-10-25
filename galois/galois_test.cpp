@@ -1,17 +1,17 @@
 #include <catch2/catch.hpp>
 #include <random>
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/galois/blocks.hpp"
-#include "voxeloo/galois/florae.hpp"
-#include "voxeloo/galois/groups.hpp"
-#include "voxeloo/galois/muck.hpp"
-#include "voxeloo/galois/sbo.hpp"
-#include "voxeloo/galois/terrain.hpp"
-#include "voxeloo/tensors/arrays.hpp"
-#include "voxeloo/tensors/routines.hpp"
-#include "voxeloo/tensors/sparse.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "galois/blocks.hpp"
+#include "galois/florae.hpp"
+#include "galois/groups.hpp"
+#include "galois/muck.hpp"
+#include "galois/sbo.hpp"
+#include "galois/terrain.hpp"
+#include "tensors/arrays.hpp"
+#include "tensors/routines.hpp"
+#include "tensors/sparse.hpp"
+#include "tensors/tensors.hpp"
 
 using namespace voxeloo;          // NOLINT
 using namespace voxeloo::galois;  // NOLINT

@@ -1,9 +1,9 @@
-#include "voxeloo/common/threads.hpp"
+#include "common/threads.hpp"
 
 #include <catch2/catch.hpp>
 #include <thread>
 
-#include "voxeloo/common/macros.hpp"
+#include "common/macros.hpp"
 
 namespace voxeloo {
 

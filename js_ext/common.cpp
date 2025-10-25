@@ -1,7 +1,7 @@
-#include "voxeloo/js_ext/common.hpp"
+#include "js_ext/common.hpp"
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/metrics.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/metrics.hpp"
 
 namespace voxeloo::js {
 namespace {

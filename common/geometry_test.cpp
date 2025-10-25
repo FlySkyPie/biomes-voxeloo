@@ -1,4 +1,4 @@
-#include "voxeloo/common/geometry.hpp"
+#include <VoxelooGeometry/geometry.hpp>
 
 #include <catch2/catch.hpp>
 

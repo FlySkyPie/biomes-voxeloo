@@ -1,9 +1,9 @@
-#include "voxeloo/tensors/routines.hpp"
+#include "tensors/routines.hpp"
 
 #include <catch2/catch.hpp>
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/tensors/sparse.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "tensors/sparse.hpp"
 
 using namespace voxeloo;           // NOLINT
 using namespace voxeloo::tensors;  // NOLINT

@@ -1,7 +1,7 @@
 // Tests that we can use the dlmalloc mallinfo() function to obtain information
 // about malloc()ed blocks and compute how much memory is used/freed.
 
-#include "voxeloo/js_ext/memory.hpp"
+#include "js_ext/memory.hpp"
 
 #include <assert.h>
 #include <emscripten/emscripten.h>

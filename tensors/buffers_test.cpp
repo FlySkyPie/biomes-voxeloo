@@ -1,8 +1,8 @@
-#include "voxeloo/tensors/buffers.hpp"
+#include "tensors/buffers.hpp"
 
 #include <catch2/catch.hpp>
 
-#include "voxeloo/common/geometry.hpp"
+#include <VoxelooGeometry/geometry.hpp>
 
 using namespace voxeloo;           // NOLINT
 using namespace voxeloo::tensors;  // NOLINT

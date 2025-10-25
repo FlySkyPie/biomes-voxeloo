@@ -1,8 +1,8 @@
-#include "voxeloo/gaia/terrain.hpp"
+#include "gaia/terrain.hpp"
 
 #include <catch2/catch.hpp>
 
-#include "voxeloo/common/geometry.hpp"
+#include <VoxelooGeometry/geometry.hpp>
 
 using namespace voxeloo;  // NOLINT
 using galois::terrain::TerrainId;

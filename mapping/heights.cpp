@@ -1,15 +1,15 @@
-#include "voxeloo/mapping/heights.hpp"
+#include "mapping/heights.hpp"
 
 #include <memory>
 #include <optional>
 #include <unordered_set>
 
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/galois/terrain.hpp"
-#include "voxeloo/mapping/util.hpp"
-#include "voxeloo/tensors/routines.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include "common/errors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "galois/terrain.hpp"
+#include "mapping/util.hpp"
+#include "tensors/routines.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::mapping {
 

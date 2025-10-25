@@ -1,4 +1,4 @@
-#include "voxeloo/js_ext/shards.hpp"
+#include "js_ext/shards.hpp"
 
 #include <emscripten/bind.h>
 #include <emscripten/val.h>
@@ -7,13 +7,13 @@
 #include <cstdint>
 #include <string>
 
-#include "voxeloo/biomes/culling.hpp"
-#include "voxeloo/biomes/shards.hpp"
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/js_ext/buffers.hpp"
-#include "voxeloo/js_ext/common.hpp"
-#include "voxeloo/js_ext/galois.hpp"
+#include "biomes/culling.hpp"
+#include "biomes/shards.hpp"
+#include "common/errors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "js_ext/buffers.hpp"
+#include "js_ext/common.hpp"
+#include "js_ext/galois.hpp"
 
 namespace voxeloo::shards::js {
 

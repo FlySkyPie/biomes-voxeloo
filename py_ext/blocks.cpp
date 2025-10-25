@@ -1,14 +1,14 @@
-#include "voxeloo/py_ext/blocks.hpp"
+#include "py_ext/blocks.hpp"
 
 #include <pybind11/numpy.h>
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
 
-#include "voxeloo/common/blocks.hpp"
-#include "voxeloo/common/colors.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/transport.hpp"
-#include "voxeloo/py_ext/meshes.hpp"
+#include "common/blocks.hpp"
+#include "common/colors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/transport.hpp"
+#include "py_ext/meshes.hpp"
 
 namespace py = pybind11;
 

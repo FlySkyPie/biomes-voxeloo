@@ -1,17 +1,17 @@
-#include "voxeloo/js_ext/tensors.hpp"
+#include "js_ext/tensors.hpp"
 
 #include <emscripten/bind.h>
 #include <emscripten/val.h>
 
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/transport.hpp"
-#include "voxeloo/common/voxels.hpp"
-#include "voxeloo/js_ext/buffers.hpp"
-#include "voxeloo/js_ext/common.hpp"
-#include "voxeloo/tensors/hashing.hpp"
-#include "voxeloo/tensors/routines.hpp"
-#include "voxeloo/tensors/sparse.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include "common/errors.hpp"
+#include "common/transport.hpp"
+#include "common/voxels.hpp"
+#include "js_ext/buffers.hpp"
+#include "js_ext/common.hpp"
+#include "tensors/hashing.hpp"
+#include "tensors/routines.hpp"
+#include "tensors/sparse.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::tensors::js {
 

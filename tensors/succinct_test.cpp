@@ -1,8 +1,8 @@
-#include "voxeloo/tensors/succinct.hpp"
+#include "tensors/succinct.hpp"
 
 #include <catch2/catch.hpp>
 
-#include "voxeloo/common/geometry.hpp"
+#include <VoxelooGeometry/geometry.hpp>
 
 using namespace voxeloo;           // NOLINT
 using namespace voxeloo::tensors;  // NOLINT

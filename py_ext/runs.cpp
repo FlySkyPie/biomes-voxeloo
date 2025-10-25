@@ -1,4 +1,4 @@
-#include "voxeloo/py_ext/runs.hpp"
+#include "py_ext/runs.hpp"
 
 #include <pybind11/numpy.h>
 #include <pybind11/pybind11.h>
@@ -7,7 +7,7 @@
 #include <cstdint>
 #include <unordered_map>
 
-#include "voxeloo/common/runs.hpp"
+#include "common/runs.hpp"
 
 namespace py = pybind11;
 

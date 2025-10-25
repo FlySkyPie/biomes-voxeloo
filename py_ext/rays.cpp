@@ -1,4 +1,4 @@
-#include "voxeloo/py_ext/rays.hpp"
+#include "py_ext/rays.hpp"
 
 #include <pybind11/numpy.h>
 #include <pybind11/pybind11.h>
@@ -7,13 +7,13 @@
 #include <cstdint>
 #include <unordered_map>
 
-#include "voxeloo/common/blocks.hpp"
-#include "voxeloo/common/colors.hpp"
-#include "voxeloo/common/rays.hpp"
-#include "voxeloo/common/spatial.hpp"
-#include "voxeloo/common/succinct.hpp"
-#include "voxeloo/common/utils.hpp"
-#include "voxeloo/common/voxels.hpp"
+#include "common/blocks.hpp"
+#include "common/colors.hpp"
+#include "common/rays.hpp"
+#include "common/spatial.hpp"
+#include "common/succinct.hpp"
+#include "common/utils.hpp"
+#include "common/voxels.hpp"
 
 namespace py = pybind11;
 

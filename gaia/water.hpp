@@ -1,7 +1,7 @@
 #pragma once
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/gaia/terrain.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "gaia/terrain.hpp"
 
 namespace voxeloo::gaia {
 

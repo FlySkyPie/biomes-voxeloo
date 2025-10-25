@@ -3,9 +3,9 @@
 #include <optional>
 #include <vector>
 
-#include "voxeloo/common/bits.hpp"
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/tensors/buffers.hpp"
+#include "common/bits.hpp"
+#include "common/errors.hpp"
+#include "tensors/buffers.hpp"
 
 namespace voxeloo::tensors {
 

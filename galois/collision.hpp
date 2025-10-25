@@ -3,15 +3,15 @@
 #include <array>
 #include <vector>
 
-#include "voxeloo/common/bits.hpp"
-#include "voxeloo/common/boxifier.hpp"
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/subbox.hpp"
-#include "voxeloo/common/voxels.hpp"
-#include "voxeloo/galois/sbo.hpp"
-#include "voxeloo/tensors/routines.hpp"
-#include "voxeloo/tensors/tensors.hpp"
-#include "voxeloo/tensors/utils.hpp"
+#include "common/bits.hpp"
+#include "common/boxifier.hpp"
+#include "common/errors.hpp"
+#include "common/subbox.hpp"
+#include "common/voxels.hpp"
+#include "galois/sbo.hpp"
+#include "tensors/routines.hpp"
+#include "tensors/tensors.hpp"
+#include "tensors/utils.hpp"
 
 namespace voxeloo::galois::collision {
 

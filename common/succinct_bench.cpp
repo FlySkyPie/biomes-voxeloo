@@ -2,7 +2,7 @@
 #include <catch2/catch.hpp>
 #include <unordered_map>
 
-#include "voxeloo/common/succinct.hpp"
+#include "common/succinct.hpp"
 
 namespace voxeloo {
 

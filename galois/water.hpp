@@ -4,14 +4,14 @@
 #include <bitset>
 #include <vector>
 
-#include "voxeloo/common/bits.hpp"
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/voxels.hpp"
-#include "voxeloo/galois/conv.hpp"
-#include "voxeloo/galois/sbo.hpp"
-#include "voxeloo/galois/shapes.hpp"
-#include "voxeloo/tensors/routines.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include "common/bits.hpp"
+#include "common/errors.hpp"
+#include "common/voxels.hpp"
+#include "galois/conv.hpp"
+#include "galois/sbo.hpp"
+#include "galois/shapes.hpp"
+#include "tensors/routines.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::galois::water {
 

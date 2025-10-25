@@ -1,8 +1,8 @@
-#include "voxeloo/gaia/muck.hpp"
+#include "gaia/muck.hpp"
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/tensors/routines.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "tensors/routines.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::gaia {
 

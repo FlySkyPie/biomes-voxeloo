@@ -1,4 +1,4 @@
-#include "voxeloo/common/metrics.hpp"
+#include "common/metrics.hpp"
 
 #include "prometheus/text_serializer.h"
 

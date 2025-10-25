@@ -4,9 +4,9 @@
 #include <optional>
 #include <unordered_set>
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/mapping/util.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "mapping/util.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::mapping {
 

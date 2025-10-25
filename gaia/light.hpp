@@ -3,15 +3,15 @@
 #include <memory>
 #include <unordered_map>
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/gaia/deps.hpp"
-#include "voxeloo/gaia/lazy.hpp"
-#include "voxeloo/gaia/logger.hpp"
-#include "voxeloo/gaia/maps.hpp"
-#include "voxeloo/gaia/scanner.hpp"
-#include "voxeloo/gaia/stream.hpp"
-#include "voxeloo/gaia/terrain.hpp"
-#include "voxeloo/tensors/buffers.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "gaia/deps.hpp"
+#include "gaia/lazy.hpp"
+#include "gaia/logger.hpp"
+#include "gaia/maps.hpp"
+#include "gaia/scanner.hpp"
+#include "gaia/stream.hpp"
+#include "gaia/terrain.hpp"
+#include "tensors/buffers.hpp"
 
 namespace voxeloo::gaia {
 

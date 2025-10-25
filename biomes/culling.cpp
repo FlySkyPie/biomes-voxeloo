@@ -1,17 +1,17 @@
-#include "voxeloo/biomes/culling.hpp"
+#include "biomes/culling.hpp"
 
 #include <Eigen/Dense>
 #include <algorithm>
 #include <cstdint>
 #include <vector>
 
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/hull.hpp"
-#include "voxeloo/common/march.hpp"
-#include "voxeloo/common/subbox.hpp"
-#include "voxeloo/common/utils.hpp"
-#include "voxeloo/tensors/routines.hpp"
+#include "common/errors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/hull.hpp"
+#include "common/march.hpp"
+#include "common/subbox.hpp"
+#include "common/utils.hpp"
+#include "tensors/routines.hpp"
 
 namespace voxeloo::culling {
 

@@ -1,9 +1,9 @@
 #pragma once
 
-#include "voxeloo/common/hashing.hpp"
-#include "voxeloo/common/voxels.hpp"
-#include "voxeloo/tensors/routines.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include "common/hashing.hpp"
+#include "common/voxels.hpp"
+#include "tensors/routines.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::tensors {
 

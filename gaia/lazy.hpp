@@ -3,7 +3,7 @@
 #include <optional>
 #include <utility>
 
-#include "voxeloo/common/errors.hpp"
+#include "common/errors.hpp"
 
 namespace voxeloo::gaia {
 

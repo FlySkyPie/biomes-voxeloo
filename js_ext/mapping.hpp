@@ -5,8 +5,8 @@
 
 #include <unordered_set>
 
-#include "voxeloo/js_ext/buffers.hpp"
-#include "voxeloo/mapping/heights.hpp"
+#include "js_ext/buffers.hpp"
+#include "mapping/heights.hpp"
 
 namespace voxeloo::mapping::js {
 

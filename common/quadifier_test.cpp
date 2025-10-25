@@ -1,9 +1,9 @@
-#include "voxeloo/common/quadifier.hpp"
+#include "common/quadifier.hpp"
 
 #include <vector>
 
 #include "catch2/catch.hpp"
-#include "voxeloo/common/geometry.hpp"
+#include <VoxelooGeometry/geometry.hpp>
 
 namespace voxeloo::quadifier {
 

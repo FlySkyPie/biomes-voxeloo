@@ -1,8 +1,8 @@
 #pragma once
 
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/gaia/queue.hpp"
-#include "voxeloo/tensors/buffers.hpp"
+#include "common/errors.hpp"
+#include "gaia/queue.hpp"
+#include "tensors/buffers.hpp"
 
 namespace voxeloo::gaia {
 

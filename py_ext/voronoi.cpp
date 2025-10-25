@@ -5,9 +5,9 @@
 #include <tuple>
 #include <vector>
 
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/knn.hpp"
+#include "common/errors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/knn.hpp"
 
 namespace py = pybind11;
 

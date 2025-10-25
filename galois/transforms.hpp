@@ -2,11 +2,11 @@
 
 #include <vector>
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/macros.hpp"
-#include "voxeloo/common/voxels.hpp"
-#include "voxeloo/tensors/routines.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/macros.hpp"
+#include "common/voxels.hpp"
+#include "tensors/routines.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::galois::transforms {
 

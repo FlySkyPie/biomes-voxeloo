@@ -1,11 +1,11 @@
-#include "voxeloo/biomes/biomes.hpp"
+#include "biomes/biomes.hpp"
 
 #include <catch2/catch.hpp>
 #include <tuple>
 #include <vector>
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/transport.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/transport.hpp"
 
 using Catch::Matchers::UnorderedEquals;
 using voxeloo::Vec3;

@@ -1,7 +1,7 @@
 #include <algorithm>
 #include <catch2/catch.hpp>
 
-#include "voxeloo/common/runs.hpp"
+#include "common/runs.hpp"
 
 namespace voxeloo {
 

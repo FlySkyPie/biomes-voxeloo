@@ -1,16 +1,16 @@
-#include "voxeloo/gaia/light.hpp"
+#include "gaia/light.hpp"
 
 #include <bitset>
 #include <memory>
 
 #include "prometheus/counter.h"
-#include "voxeloo/common/format.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/hashing.hpp"
-#include "voxeloo/common/metrics.hpp"
-#include "voxeloo/gaia/timer.hpp"
-#include "voxeloo/galois/terrain.hpp"
-#include "voxeloo/tensors/buffers.hpp"
+#include "common/format.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/hashing.hpp"
+#include "common/metrics.hpp"
+#include "gaia/timer.hpp"
+#include "galois/terrain.hpp"
+#include "tensors/buffers.hpp"
 
 namespace voxeloo::gaia {
 

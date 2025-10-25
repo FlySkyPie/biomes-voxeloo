@@ -1,12 +1,12 @@
-#include "voxeloo/py_ext/tensors.hpp"
+#include "py_ext/tensors.hpp"
 
 #include <pybind11/numpy.h>
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
 
-#include "voxeloo/tensors/routines.hpp"
-#include "voxeloo/tensors/sparse.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include "tensors/routines.hpp"
+#include "tensors/sparse.hpp"
+#include "tensors/tensors.hpp"
 
 namespace py = pybind11;
 

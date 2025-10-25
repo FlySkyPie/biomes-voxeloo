@@ -1,8 +1,8 @@
-#include "voxeloo/gaia/stream.hpp"
+#include "gaia/stream.hpp"
 
 #include <catch2/catch.hpp>
 
-#include "voxeloo/common/geometry.hpp"
+#include <VoxelooGeometry/geometry.hpp>
 
 using namespace voxeloo;  // NOLINT
 using Catch::Matchers::Equals;

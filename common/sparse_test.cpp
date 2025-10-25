@@ -1,4 +1,4 @@
-#include "voxeloo/common/sparse.hpp"
+#include "common/sparse.hpp"
 
 #include <catch2/catch.hpp>
 

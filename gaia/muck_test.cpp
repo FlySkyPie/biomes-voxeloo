@@ -1,11 +1,11 @@
-#include "voxeloo/gaia/muck.hpp"
+#include "gaia/muck.hpp"
 
 #include <catch2/catch.hpp>
 #include <iostream>
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/gaia/maps.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "gaia/maps.hpp"
+#include "tensors/tensors.hpp"
 
 using namespace voxeloo;  // NOLINT
 

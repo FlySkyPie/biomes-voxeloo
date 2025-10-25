@@ -3,13 +3,13 @@
 #include <memory>
 #include <vector>
 
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/hashing.hpp"
-#include "voxeloo/common/macros.hpp"
-#include "voxeloo/tensors/arrays.hpp"
-#include "voxeloo/tensors/tensors.hpp"
-#include "voxeloo/tensors/utils.hpp"
+#include "common/errors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/hashing.hpp"
+#include "common/macros.hpp"
+#include "tensors/arrays.hpp"
+#include "tensors/tensors.hpp"
+#include "tensors/utils.hpp"
 
 namespace voxeloo::tensors {
 

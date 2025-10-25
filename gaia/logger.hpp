@@ -5,7 +5,7 @@
 #include <string>
 #include <utility>
 
-#include "voxeloo/common/format.hpp"
+#include "common/format.hpp"
 
 namespace voxeloo::gaia {
 

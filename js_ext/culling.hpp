@@ -3,9 +3,9 @@
 #include <emscripten/bind.h>
 #include <emscripten/val.h>
 
-#include "voxeloo/biomes/culling.hpp"
-#include "voxeloo/js_ext/buffers.hpp"
-#include "voxeloo/js_ext/shards.hpp"
+#include "biomes/culling.hpp"
+#include "js_ext/buffers.hpp"
+#include "js_ext/shards.hpp"
 
 namespace voxeloo::culling::js {
 

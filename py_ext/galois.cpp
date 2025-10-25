@@ -1,21 +1,21 @@
-#include "voxeloo/py_ext/galois.hpp"
+#include "py_ext/galois.hpp"
 
 #include <pybind11/numpy.h>
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/galois/csg.hpp"
-#include "voxeloo/galois/florae.hpp"
-#include "voxeloo/galois/groups.hpp"
-#include "voxeloo/galois/lighting.hpp"
-#include "voxeloo/galois/material_properties.hpp"
-#include "voxeloo/galois/sbo.hpp"
-#include "voxeloo/galois/shapes.hpp"
-#include "voxeloo/galois/terrain.hpp"
-#include "voxeloo/galois/transforms.hpp"
-#include "voxeloo/galois/water.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "galois/csg.hpp"
+#include "galois/florae.hpp"
+#include "galois/groups.hpp"
+#include "galois/lighting.hpp"
+#include "galois/material_properties.hpp"
+#include "galois/sbo.hpp"
+#include "galois/shapes.hpp"
+#include "galois/terrain.hpp"
+#include "galois/transforms.hpp"
+#include "galois/water.hpp"
+#include "tensors/tensors.hpp"
 
 namespace py = pybind11;
 

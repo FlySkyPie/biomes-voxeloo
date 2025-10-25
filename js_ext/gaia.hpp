@@ -6,22 +6,22 @@
 #include <memory>
 #include <string>
 
-#include "voxeloo/biomes/migration.hpp"
-#include "voxeloo/common/hashing.hpp"
-#include "voxeloo/gaia/deps.hpp"
-#include "voxeloo/gaia/lazy.hpp"
-#include "voxeloo/gaia/light.hpp"
-#include "voxeloo/gaia/logger.hpp"
-#include "voxeloo/gaia/muck.hpp"
-#include "voxeloo/gaia/terrain.hpp"
-#include "voxeloo/gaia/water.hpp"
-#include "voxeloo/js_ext/biomes.hpp"
-#include "voxeloo/js_ext/buffers.hpp"
-#include "voxeloo/js_ext/common.hpp"
-#include "voxeloo/js_ext/galois.hpp"
-#include "voxeloo/tensors/arrays.hpp"
-#include "voxeloo/tensors/sparse.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include "biomes/migration.hpp"
+#include "common/hashing.hpp"
+#include "gaia/deps.hpp"
+#include "gaia/lazy.hpp"
+#include "gaia/light.hpp"
+#include "gaia/logger.hpp"
+#include "gaia/muck.hpp"
+#include "gaia/terrain.hpp"
+#include "gaia/water.hpp"
+#include "js_ext/biomes.hpp"
+#include "js_ext/buffers.hpp"
+#include "js_ext/common.hpp"
+#include "js_ext/galois.hpp"
+#include "tensors/arrays.hpp"
+#include "tensors/sparse.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::gaia::js {
 

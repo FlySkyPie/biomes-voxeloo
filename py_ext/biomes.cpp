@@ -1,10 +1,10 @@
-#include "voxeloo/py_ext/biomes.hpp"
+#include "py_ext/biomes.hpp"
 
 #include <pybind11/numpy.h>
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
 
-#include "voxeloo/biomes/biomes.hpp"
+#include "biomes/biomes.hpp"
 
 namespace py = pybind11;
 

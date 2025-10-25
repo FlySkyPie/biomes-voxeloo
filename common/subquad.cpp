@@ -1,10 +1,10 @@
-#include "voxeloo/common/subquad.hpp"
+#include "common/subquad.hpp"
 
 #include <vector>
 
-#include "voxeloo/common/bits.hpp"
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/geometry.hpp"
+#include "common/bits.hpp"
+#include "common/errors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
 
 namespace voxeloo::subquad {
 

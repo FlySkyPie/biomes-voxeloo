@@ -3,8 +3,8 @@
 #include <queue>
 #include <vector>
 
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/tensors/arrays.hpp"
+#include "common/errors.hpp"
+#include "tensors/arrays.hpp"
 
 namespace voxeloo::tensors {
 

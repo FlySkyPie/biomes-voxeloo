@@ -1,4 +1,4 @@
-#include "voxeloo/common/history.hpp"
+#include "common/history.hpp"
 
 #include <catch2/catch.hpp>
 

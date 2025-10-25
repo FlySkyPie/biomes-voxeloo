@@ -1,14 +1,14 @@
-#include "voxeloo/biomes/shards.hpp"
+#include "biomes/shards.hpp"
 
 #include <algorithm>
 #include <cstdint>
 #include <tuple>
 #include <vector>
 
-#include "voxeloo/common/frustum.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/macros.hpp"
-#include "voxeloo/common/transport.hpp"
+#include "common/frustum.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/macros.hpp"
+#include "common/transport.hpp"
 
 namespace voxeloo::shards {
 

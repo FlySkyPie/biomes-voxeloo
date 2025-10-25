@@ -1,6 +1,6 @@
 #pragma once
 
-#include "voxeloo/tensors/tensors.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::galois::muck {
 

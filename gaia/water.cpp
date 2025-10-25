@@ -1,10 +1,10 @@
-#include "voxeloo/gaia/water.hpp"
+#include "gaia/water.hpp"
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/gaia/terrain.hpp"
-#include "voxeloo/galois/conv.hpp"
-#include "voxeloo/galois/terrain.hpp"
-#include "voxeloo/tensors/buffers.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "gaia/terrain.hpp"
+#include "galois/conv.hpp"
+#include "galois/terrain.hpp"
+#include "tensors/buffers.hpp"
 
 namespace voxeloo::gaia {
 

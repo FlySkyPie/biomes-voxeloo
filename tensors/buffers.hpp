@@ -5,10 +5,10 @@
 #include <memory>
 #include <type_traits>
 
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/format.hpp"
-#include "voxeloo/common/macros.hpp"
-#include "voxeloo/common/transport.hpp"
+#include "common/errors.hpp"
+#include "common/format.hpp"
+#include "common/macros.hpp"
+#include "common/transport.hpp"
 
 namespace voxeloo::tensors {
 

@@ -8,16 +8,16 @@
 #include <map>
 #include <vector>
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/hashing.hpp"
-#include "voxeloo/common/macros.hpp"
-#include "voxeloo/common/transport.hpp"
-#include "voxeloo/galois/collision.hpp"
-#include "voxeloo/galois/material_properties.hpp"
-#include "voxeloo/galois/muck.hpp"
-#include "voxeloo/galois/utils.hpp"
-#include "voxeloo/tensors/routines.hpp"
-#include "voxeloo/tensors/sparse.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/hashing.hpp"
+#include "common/macros.hpp"
+#include "common/transport.hpp"
+#include "galois/collision.hpp"
+#include "galois/material_properties.hpp"
+#include "galois/muck.hpp"
+#include "galois/utils.hpp"
+#include "tensors/routines.hpp"
+#include "tensors/sparse.hpp"
 
 namespace voxeloo::galois::florae {
 

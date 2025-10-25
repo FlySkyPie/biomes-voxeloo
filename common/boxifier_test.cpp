@@ -1,10 +1,10 @@
-#include "voxeloo/common/boxifier.hpp"
+#include "common/boxifier.hpp"
 
 #include <catch2/catch.hpp>
 #include <vector>
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/voxels.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/voxels.hpp"
 
 namespace voxeloo::boxifier {
 

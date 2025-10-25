@@ -1,6 +1,6 @@
 #pragma once
 
-#include "voxeloo/biomes/shards.hpp"
+#include "biomes/shards.hpp"
 
 namespace voxeloo::shards::js {
 

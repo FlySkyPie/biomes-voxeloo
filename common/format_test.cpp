@@ -1,4 +1,4 @@
-#include "voxeloo/common/format.hpp"
+#include "common/format.hpp"
 
 #include <catch2/catch.hpp>
 

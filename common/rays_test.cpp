@@ -1,4 +1,4 @@
-#include "voxeloo/common/rays.hpp"
+#include "common/rays.hpp"
 
 #include <catch2/catch.hpp>
 

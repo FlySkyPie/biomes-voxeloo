@@ -1,8 +1,8 @@
-#include "voxeloo/gaia/maps.hpp"
+#include "gaia/maps.hpp"
 
 #include <catch2/catch.hpp>
 
-#include "voxeloo/common/geometry.hpp"
+#include <VoxelooGeometry/geometry.hpp>
 
 using namespace voxeloo;  // NOLINT
 

@@ -8,18 +8,18 @@
 #include <string>
 #include <thread>
 
-#include "voxeloo/biomes/biomes.hpp"
-#include "voxeloo/biomes/memoize.hpp"
-#include "voxeloo/biomes/migration.hpp"
-#include "voxeloo/biomes/shards.hpp"
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/runs.hpp"
-#include "voxeloo/common/transport.hpp"
-#include "voxeloo/js_ext/buffers.hpp"
-#include "voxeloo/js_ext/common.hpp"
-#include "voxeloo/js_ext/memory.hpp"
-#include "voxeloo/js_ext/shards.hpp"
-#include "voxeloo/js_ext/values.hpp"
+#include "biomes/biomes.hpp"
+#include "biomes/memoize.hpp"
+#include "biomes/migration.hpp"
+#include "biomes/shards.hpp"
+#include "common/errors.hpp"
+#include "common/runs.hpp"
+#include "common/transport.hpp"
+#include "js_ext/buffers.hpp"
+#include "js_ext/common.hpp"
+#include "js_ext/memory.hpp"
+#include "js_ext/shards.hpp"
+#include "js_ext/values.hpp"
 
 namespace voxeloo::biomes::js {
 

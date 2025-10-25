@@ -4,9 +4,9 @@
 #include <span>
 #include <vector>
 
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/tensors/buffers.hpp"
+#include "common/errors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "tensors/buffers.hpp"
 
 namespace voxeloo::galois::sbo {
 

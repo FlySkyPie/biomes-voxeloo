@@ -1,4 +1,4 @@
-#include "voxeloo/common/subbox.hpp"
+#include "common/subbox.hpp"
 
 #include <catch2/catch.hpp>
 

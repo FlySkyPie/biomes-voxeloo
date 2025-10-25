@@ -3,20 +3,20 @@
 #include <memory>
 #include <optional>
 
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/format.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/spatial.hpp"
-#include "voxeloo/common/voxels.hpp"
-#include "voxeloo/gaia/deps.hpp"
-#include "voxeloo/gaia/lazy.hpp"
-#include "voxeloo/gaia/logger.hpp"
-#include "voxeloo/gaia/maps.hpp"
-#include "voxeloo/gaia/stream.hpp"
-#include "voxeloo/galois/terrain.hpp"
-#include "voxeloo/tensors/buffers.hpp"
-#include "voxeloo/tensors/routines.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include "common/errors.hpp"
+#include "common/format.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/spatial.hpp"
+#include "common/voxels.hpp"
+#include "gaia/deps.hpp"
+#include "gaia/lazy.hpp"
+#include "gaia/logger.hpp"
+#include "gaia/maps.hpp"
+#include "gaia/stream.hpp"
+#include "galois/terrain.hpp"
+#include "tensors/buffers.hpp"
+#include "tensors/routines.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::gaia {
 

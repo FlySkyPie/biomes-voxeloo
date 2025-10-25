@@ -4,10 +4,10 @@
 #include <span>
 #include <vector>
 
-#include "voxeloo/galois/muck.hpp"
-#include "voxeloo/galois/sbo.hpp"
-#include "voxeloo/tensors/routines.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include "galois/muck.hpp"
+#include "galois/sbo.hpp"
+#include "tensors/routines.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::galois::material_properties {
 

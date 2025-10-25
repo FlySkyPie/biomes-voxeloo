@@ -1,14 +1,14 @@
-#include "voxeloo/biomes/biomes.hpp"
+#include "biomes/biomes.hpp"
 
 #include <array>
 #include <bitset>
 #include <memory>
 
-#include "voxeloo/biomes/shards.hpp"
-#include "voxeloo/common/disjoint_set.hpp"
-#include "voxeloo/common/voxels.hpp"
-#include "voxeloo/galois/terrain.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include "biomes/shards.hpp"
+#include "common/disjoint_set.hpp"
+#include "common/voxels.hpp"
+#include "galois/terrain.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::biomes {
 

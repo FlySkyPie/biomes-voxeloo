@@ -1,4 +1,4 @@
-#include "voxeloo/biomes/memoize.hpp"
+#include "biomes/memoize.hpp"
 
 #include <catch2/catch.hpp>
 

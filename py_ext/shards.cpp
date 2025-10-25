@@ -1,9 +1,9 @@
-#include "voxeloo/py_ext/shards.hpp"
+#include "py_ext/shards.hpp"
 
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
 
-#include "voxeloo/biomes/shards.hpp"
+#include "biomes/shards.hpp"
 
 namespace py = pybind11;
 

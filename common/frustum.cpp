@@ -1,4 +1,4 @@
-#include "voxeloo/common/frustum.hpp"
+#include "common/frustum.hpp"
 
 namespace voxeloo::frustum {
 

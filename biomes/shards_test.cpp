@@ -2,9 +2,9 @@
 #include <tuple>
 #include <vector>
 
-#include "voxeloo/biomes/biomes.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/transport.hpp"
+#include "biomes/biomes.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/transport.hpp"
 
 using Catch::Matchers::UnorderedEquals;
 

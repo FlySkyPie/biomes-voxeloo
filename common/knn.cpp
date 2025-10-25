@@ -1,4 +1,4 @@
-#include "voxeloo/common/knn.hpp"
+#include "common/knn.hpp"
 
 namespace voxeloo::knn {
 

@@ -2,8 +2,8 @@
 #include <catch2/catch.hpp>
 #include <unordered_map>
 
-#include "voxeloo/common/random.hpp"
-#include "voxeloo/tensors/succinct.hpp"
+#include "common/random.hpp"
+#include "tensors/succinct.hpp"
 
 namespace voxeloo::tensors {
 

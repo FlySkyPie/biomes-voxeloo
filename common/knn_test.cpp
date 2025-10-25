@@ -1,10 +1,10 @@
-#include "voxeloo/common/knn.hpp"
+#include "common/knn.hpp"
 
 #include <algorithm>
 #include <random>
 
 #include "catch2/catch.hpp"
-#include "voxeloo/common/geometry.hpp"
+#include <VoxelooGeometry/geometry.hpp>
 
 namespace voxeloo {
 

@@ -5,8 +5,8 @@
 
 #include <cstdint>
 
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/tensors/buffers.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "tensors/buffers.hpp"
 
 namespace voxeloo::buffers::js {
 

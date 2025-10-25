@@ -1,4 +1,4 @@
-#include "voxeloo/common/colors.hpp"
+#include "common/colors.hpp"
 
 #include <catch2/catch.hpp>
 

@@ -1,11 +1,11 @@
-#include "voxeloo/common/hull.hpp"
+#include "common/hull.hpp"
 
 #include <algorithm>
 #include <numeric>
 #include <vector>
 
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/geometry.hpp"
+#include "common/errors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
 
 namespace voxeloo::hull {
 

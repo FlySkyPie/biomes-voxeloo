@@ -1,4 +1,4 @@
-#include "voxeloo/common/voxels.hpp"
+#include "common/voxels.hpp"
 
 #include <catch2/catch.hpp>
 

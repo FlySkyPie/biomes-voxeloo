@@ -9,17 +9,17 @@
 
 #include "cereal/types/string.hpp"
 #include "cereal/types/vector.hpp"
-#include "voxeloo/biomes/shards.hpp"
-#include "voxeloo/common/boxifier.hpp"
-#include "voxeloo/common/colors.hpp"
-#include "voxeloo/common/frustum.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/macros.hpp"
-#include "voxeloo/common/quadifier.hpp"
-#include "voxeloo/common/spatial.hpp"
-#include "voxeloo/common/transport.hpp"
-#include "voxeloo/common/voxels.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include "biomes/shards.hpp"
+#include "common/boxifier.hpp"
+#include "common/colors.hpp"
+#include "common/frustum.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/macros.hpp"
+#include "common/quadifier.hpp"
+#include "common/spatial.hpp"
+#include "common/transport.hpp"
+#include "common/voxels.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::biomes {
 

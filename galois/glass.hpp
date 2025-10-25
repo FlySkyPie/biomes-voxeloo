@@ -7,8 +7,8 @@
 #include <numeric>
 #include <vector>
 
-#include "voxeloo/galois/blocks.hpp"
-#include "voxeloo/tensors/tensors.hpp"
+#include "galois/blocks.hpp"
+#include "tensors/tensors.hpp"
 
 namespace voxeloo::galois::glass {
 

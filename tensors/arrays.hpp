@@ -2,9 +2,9 @@
 
 #include <vector>
 
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/macros.hpp"
-#include "voxeloo/tensors/succinct.hpp"
+#include "common/errors.hpp"
+#include "common/macros.hpp"
+#include "tensors/succinct.hpp"
 
 namespace voxeloo::tensors {
 

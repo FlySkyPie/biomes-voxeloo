@@ -1,13 +1,13 @@
-#include "voxeloo/common/blocks.hpp"
+#include "common/blocks.hpp"
 
 #include <catch2/catch.hpp>
 #include <limits>
 
-#include "voxeloo/common/colors.hpp"
-#include "voxeloo/common/format.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/meshes.hpp"
-#include "voxeloo/common/transport.hpp"
+#include "common/colors.hpp"
+#include "common/format.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/meshes.hpp"
+#include "common/transport.hpp"
 
 namespace voxeloo {
 using namespace colors;

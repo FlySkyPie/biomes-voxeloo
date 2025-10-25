@@ -1,10 +1,10 @@
-#include "voxeloo/js_ext/voxels.hpp"
+#include "js_ext/voxels.hpp"
 
 #include <emscripten/bind.h>
 #include <emscripten/val.h>
 
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/voxels.hpp"
+#include "common/errors.hpp"
+#include "common/voxels.hpp"
 
 namespace voxeloo::voxels::js {
 

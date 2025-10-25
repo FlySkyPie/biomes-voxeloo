@@ -1,4 +1,4 @@
-#include "voxeloo/py_ext/spatial.hpp"
+#include "py_ext/spatial.hpp"
 
 #include <pybind11/numpy.h>
 #include <pybind11/pybind11.h>
@@ -7,11 +7,11 @@
 #include <cstdint>
 #include <unordered_map>
 
-#include "voxeloo/common/blocks.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/macros.hpp"
-#include "voxeloo/common/spatial.hpp"
-#include "voxeloo/common/voxels.hpp"
+#include "common/blocks.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/macros.hpp"
+#include "common/spatial.hpp"
+#include "common/voxels.hpp"
 
 namespace py = pybind11;
 

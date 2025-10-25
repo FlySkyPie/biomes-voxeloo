@@ -1,9 +1,9 @@
-#include "voxeloo/biomes/culling.hpp"
+#include "biomes/culling.hpp"
 
 #include <catch2/catch.hpp>
 #include <cmath>
 
-#include "voxeloo/common/geometry.hpp"
+#include <VoxelooGeometry/geometry.hpp>
 
 namespace voxeloo::culling {
 

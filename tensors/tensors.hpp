@@ -3,10 +3,10 @@
 #include <memory>
 #include <vector>
 
-#include "voxeloo/common/errors.hpp"
-#include "voxeloo/common/geometry.hpp"
-#include "voxeloo/common/macros.hpp"
-#include "voxeloo/tensors/arrays.hpp"
+#include "common/errors.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include "common/macros.hpp"
+#include "tensors/arrays.hpp"
 
 namespace voxeloo::tensors {
 

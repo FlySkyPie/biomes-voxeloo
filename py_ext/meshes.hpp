@@ -3,7 +3,7 @@
 #include <pybind11/numpy.h>
 #include <pybind11/pybind11.h>
 
-#include "voxeloo/common/meshes.hpp"
+#include "common/meshes.hpp"
 
 namespace voxeloo::meshes::ext {
 

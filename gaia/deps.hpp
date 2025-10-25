@@ -2,7 +2,7 @@
 
 #include <memory>
 
-#include "voxeloo/gaia/lazy.hpp"
+#include "gaia/lazy.hpp"
 
 namespace voxeloo::gaia {
 
