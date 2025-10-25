@@ -1,14 +1,13 @@
-#include "gaia/light.hpp"
-
 #include <bitset>
 #include <memory>
-
-#include "prometheus/counter.h"
-#include "common/format.hpp"
 #include <VoxelooGeometry/geometry.hpp>
+#include <prometheus/counter.h>
+
+#include "common/format.hpp"
 #include "common/hashing.hpp"
 #include "common/metrics.hpp"
 #include "gaia/timer.hpp"
+#include "gaia/light.hpp"
 #include "galois/terrain.hpp"
 #include "tensors/buffers.hpp"
 
