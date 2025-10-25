@@ -14,10 +14,12 @@ CPMAddPackage("gh:FlySkyPie/biomes-voxeloo-light-kernelry@0.1.2")
 # Add sub directories
 add_subdirectory(anima)
 add_subdirectory(common)
+add_subdirectory(biomes)
 
 target_sources(
     ${PROJECT_NAME}
     PRIVATE
     $<TARGET_OBJECTS:VoxelooAnima>
     $<TARGET_OBJECTS:VoxelooCore>
+    $<TARGET_OBJECTS:VoxelooBiomes>
 )

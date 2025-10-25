@@ -1,6 +1,6 @@
 #pragma once
 
-#include "OpenSimplexNoise.h"
+#include <OpenSimplexNoise.h>
 
 namespace voxeloo::noise {
 

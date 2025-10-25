@@ -1,9 +1,9 @@
-#include "biomes/biomes.hpp"
 
 #include <array>
 #include <bitset>
 #include <memory>
 
+#include "biomes/biomes.hpp"
 #include "biomes/shards.hpp"
 #include "common/disjoint_set.hpp"
 #include "common/voxels.hpp"

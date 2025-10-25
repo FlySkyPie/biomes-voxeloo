@@ -3,10 +3,11 @@ project (VoxelooBiomes)
 
 # Add a library with the above sources
 add_library(${PROJECT_NAME}
-    src/biomes.cpp
-    src/culling.cpp
-    src/noise.cpp
-    src/shards.cpp)
+    OBJECT
+    biomes.cpp
+    culling.cpp
+    noise.cpp
+    shards.cpp)
 
 include(../cmake/CPM.cmake)
 
@@ -22,9 +23,9 @@ CPMAddPackage("gh:catchorg/Catch2@2.13.10")
 CPMAddPackage("gh:USCiLab/cereal@1.3.2")
 CPMAddPackage("gl:libeigen/eigen#3.4.0")
 CPMAddPackage("gh:martinus/robin-hood-hashing#3.11.5")
-CPMAddPackage("gh:deerel/OpenSimplexNoise#master")
+CPMAddPackage("gh:FlySkyPie/OpenSimplexNoise@1.0.2")
 
-target_link_libraries(${PROJECT_NAME} PRIVATE VoxelooGeometry)
+# target_link_libraries(${PROJECT_NAME} PRIVATE VoxelooGeometry)
 
 target_link_libraries(
     ${PROJECT_NAME}
@@ -33,11 +34,11 @@ target_link_libraries(
     Catch2
     cereal::cereal
     robin_hood::robin_hood
-    Eigen3::Eigen)
+    Eigen3::Eigen
+    OpenSimplexNoise)
 
 target_include_directories(
     ${PROJECT_NAME}
     PUBLIC 
-    ${PROJECT_SOURCE_DIR}/include
     ${PROJECT_SOURCE_DIR}/../include
 )
