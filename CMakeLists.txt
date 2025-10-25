@@ -17,6 +17,7 @@ add_subdirectory(common)
 add_subdirectory(biomes)
 add_subdirectory(gaia)
 add_subdirectory(mapping)
+add_subdirectory(tensors)
 
 target_sources(
     ${PROJECT_NAME}
@@ -26,4 +27,5 @@ target_sources(
     $<TARGET_OBJECTS:VoxelooBiomes>
     $<TARGET_OBJECTS:VoxelooGaia>
     $<TARGET_OBJECTS:VoxelooMapping>
+    $<TARGET_OBJECTS:VoxelooTensors>
 )
