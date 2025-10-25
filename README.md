@@ -1,3 +1,7 @@
+# Biomes::Voxeloo
+
+This module is extracted from [ill-inc/biomes-game](https://github.com/ill-inc/biomes-game).
+
 # Building WASM
 
 Run from Biomes repository root, `scripts/build_wasm.sh -t all`
