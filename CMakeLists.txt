@@ -12,12 +12,12 @@ CPMAddPackage("gh:FlySkyPie/biomes-voxeloo-geometry@0.1.1")
 CPMAddPackage("gh:FlySkyPie/biomes-voxeloo-light-kernelry@0.1.2")
 
 # Add sub directories
-add_subdirectory(anima)
-add_subdirectory(common)
-add_subdirectory(biomes)
-add_subdirectory(gaia)
-add_subdirectory(mapping)
-add_subdirectory(tensors)
+add_subdirectory(src/anima)
+add_subdirectory(src/common)
+add_subdirectory(src/biomes)
+add_subdirectory(src/gaia)
+add_subdirectory(src/mapping)
+add_subdirectory(src/tensors)
 
 target_sources(
     ${PROJECT_NAME}

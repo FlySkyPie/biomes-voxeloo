@@ -17,7 +17,7 @@ add_library(
     succinct.cpp
     transport.cpp)
 
-include(../cmake/CPM.cmake)
+include(../../cmake/CPM.cmake)
 
 set(CEREAL_BUILD_DOC OFF)
 set(EIGEN_BUILD_DOC OFF)
@@ -55,5 +55,5 @@ target_link_libraries(
     prometheus-cpp::push)
 
 target_include_directories( ${PROJECT_NAME}
-    PUBLIC ${PROJECT_SOURCE_DIR}/../include
+    PUBLIC ${PROJECT_SOURCE_DIR}/../../include
 )
