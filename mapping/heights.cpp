@@ -1,11 +1,11 @@
-#include "mapping/heights.hpp"
-
 #include <memory>
 #include <optional>
 #include <unordered_set>
 
-#include "common/errors.hpp"
 #include <VoxelooGeometry/geometry.hpp>
+
+#include "common/errors.hpp"
+#include "mapping/heights.hpp"
 #include "galois/terrain.hpp"
 #include "mapping/util.hpp"
 #include "tensors/routines.hpp"
