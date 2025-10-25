@@ -2,6 +2,8 @@ cmake_minimum_required (VERSION 3.5)
 
 project(Voxeloo)
 
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
 add_library(${PROJECT_NAME} SHARED)
 
 include(cmake/CPM.cmake)
