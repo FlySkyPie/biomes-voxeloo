@@ -11,7 +11,7 @@ inline auto extend(std::vector<T>& out, const std::vector<T>& in) {
   out.insert(out.end(), in.begin(), in.end());
 }
 
-TEST_CASE("Test maximum subquad solver [case 1]", "[all]") {
+TEST_CASE("Test maximum subbox solver [case 1]", "[all]") {
   std::vector<bool> mask;
 
   // Layer 0
@@ -34,7 +34,7 @@ TEST_CASE("Test maximum subquad solver [case 1]", "[all]") {
   REQUIRE(solution.v1 == vec3(3u, 2u, 3u));
 }
 
-TEST_CASE("Test maximum subquad solver [case 2]", "[all]") {
+TEST_CASE("Test maximum subbox solver [case 2]", "[all]") {
   std::vector<bool> mask;
 
   // Layer 0
@@ -57,13 +57,13 @@ TEST_CASE("Test maximum subquad solver [case 2]", "[all]") {
   REQUIRE(solution.v1 == vec3(3u, 2u, 2u));
 }
 
-TEST_CASE("Test maximum subquad solver with empty matrix", "[all]") {
+TEST_CASE("Test maximum subbox solver with empty matrix", "[all]") {
   auto solution = solve({}, {0, 0, 0});
   REQUIRE(solution.v0 == vec3(0u, 0u, 0u));
   REQUIRE(solution.v1 == vec3(0u, 0u, 0u));
 }
 
-TEST_CASE("Test maximum subquad solver with unit matrix", "[all]") {
+TEST_CASE("Test maximum subbox solver with unit matrix", "[all]") {
   auto solution = solve({true}, {1, 1, 1});
   REQUIRE(solution.v0 == vec3(0u, 0u, 0u));
   REQUIRE(solution.v1 == vec3(1u, 1u, 1u));

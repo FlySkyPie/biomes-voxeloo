@@ -7,7 +7,7 @@ namespace voxeloo {
 using Catch::Approx;
 // using Catch::Matchers::Approx;
 
-TEST_CASE("Test lerp", "[all]") {
+TEST_CASE("Test utils lerp", "[all]") {
   REQUIRE(lerp(1.0f, 3.0f, 0.0f) == Approx(1.0f));
   REQUIRE(lerp(1.0f, 3.0f, 1.0f) == Approx(3.0f));
   REQUIRE(lerp(1.0f, 3.0f, 0.5f) == Approx(2.0f));
