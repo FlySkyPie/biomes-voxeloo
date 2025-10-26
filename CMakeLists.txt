@@ -21,15 +21,18 @@ add_subdirectory(src/tensors)
 
 target_link_libraries(
     ${PROJECT_NAME}
-    PUBLIC
-    VoxelooAnima
-    VoxelooCore
-    VoxelooBiomes
-    VoxelooGaia
-    VoxelooMapping
-    VoxelooTensors
+    PRIVATE
+    "$<LINK_LIBRARY:WHOLE_ARCHIVE,VoxelooAnima>"
+    "$<LINK_LIBRARY:WHOLE_ARCHIVE,VoxelooCore>"
+    "$<LINK_LIBRARY:WHOLE_ARCHIVE,VoxelooBiomes>"
+    "$<LINK_LIBRARY:WHOLE_ARCHIVE,VoxelooGaia>"
+    "$<LINK_LIBRARY:WHOLE_ARCHIVE,VoxelooMapping>"
+    "$<LINK_LIBRARY:WHOLE_ARCHIVE,VoxelooTensors>"
 )
+
+# set_target_properties(${PROJECT_NAME} PROPERTIES CXX_VISIBILITY_PRESET "hidden")
 
 enable_testing()
 add_subdirectory(tests/biomes)
 add_subdirectory(tests/common)
+add_subdirectory(tests/gaia)

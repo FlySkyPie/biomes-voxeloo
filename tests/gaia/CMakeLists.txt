@@ -1,13 +1,13 @@
 # Set the project name
-project (VoxelooGaia)
+project (VoxelooGaiaTest)
 
 # Add a library with the above sources
-add_library(${PROJECT_NAME}
-    STATIC
-    light.cpp
-    muck.cpp
-    terrain.cpp
-    water.cpp)
+add_executable(${PROJECT_NAME}
+    light_test.cpp
+    maps_test.cpp
+    muck_test.cpp
+    stream_test.cpp
+    terrain_test.cpp)
 
 include(../../cmake/CPM.cmake)
 
@@ -18,21 +18,27 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_BUILD_TYPE debug)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
 
-# CPMAddPackage("gh:catchorg/Catch2@2.13.10")
-CPMAddPackage("gh:USCiLab/cereal@1.3.2")
-CPMAddPackage("gh:jupp0r/prometheus-cpp@1.0.1")
-CPMAddPackage("gh:martinus/robin-hood-hashing#3.11.5")
 CPMAddPackage("gh:FlySkyPie/biomes-voxeloo-geometry@0.1.1")
+CPMAddPackage("gh:catchorg/Catch2@3.4.0")
+CPMAddPackage("gh:USCiLab/cereal@1.3.2")
+CPMAddPackage("gh:martinus/robin-hood-hashing#3.11.5")
+
+find_package(Catch2 CONFIG REQUIRED) # @catch2
 
 target_link_libraries(
     ${PROJECT_NAME}
     PRIVATE
-    # Catch2
+    VoxelooGeometry
     cereal::cereal
-    robin_hood::robin_hood
-    prometheus-cpp::push)
-    
-target_link_libraries(${PROJECT_NAME} PRIVATE VoxelooGeometry)
+    robin_hood::robin_hood)
+
+target_link_libraries(${PROJECT_NAME} PRIVATE Catch2::Catch2WithMain)
+
+target_link_libraries(
+    ${PROJECT_NAME}
+    PRIVATE
+    Voxeloo
+)
 
 target_include_directories(
     ${PROJECT_NAME}

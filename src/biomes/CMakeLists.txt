@@ -37,12 +37,12 @@ target_link_libraries(
     Eigen3::Eigen
     OpenSimplexNoise)
 
-target_link_libraries(
-    ${PROJECT_NAME}
-    PUBLIC
-    VoxelooCore
-    VoxelooTensors
-)
+# target_link_libraries(
+#     ${PROJECT_NAME}
+#     PUBLIC
+#     VoxelooCore
+#     VoxelooTensors
+# )
 
 target_include_directories(
     ${PROJECT_NAME}
