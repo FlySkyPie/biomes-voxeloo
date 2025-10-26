@@ -9,6 +9,8 @@
 #include <optional>
 #include <stdexcept>
 
+#include <tomasakeninemoeller/tribox3.h>
+
 #include "biomes/rasterization.hpp"
 #include "common/blocks.hpp"
 #include "common/colors.hpp"
@@ -19,7 +21,6 @@
 #include "common/threads.hpp"
 #include "common/transport.hpp"
 #include "common/voxels.hpp"
-#include "third_party/tomasakeninemoeller/tribox3.h"
 
 namespace py = pybind11;
 

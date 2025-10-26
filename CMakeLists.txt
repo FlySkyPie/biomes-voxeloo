@@ -19,6 +19,8 @@ add_subdirectory(src/gaia)
 add_subdirectory(src/mapping)
 add_subdirectory(src/tensors)
 
+add_subdirectory(py_ext)
+
 target_link_libraries(
     ${PROJECT_NAME}
     PRIVATE
