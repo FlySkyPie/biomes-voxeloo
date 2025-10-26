@@ -5,9 +5,10 @@
 #include <span>
 #include <vector>
 
+#include <VoxelooLightKernelry/light_kernel.hpp>
+
 #include "common/bits.hpp"
 #include "common/errors.hpp"
-#include "galois/gen/light_kernel.hpp"
 #include "galois/sbo.hpp"
 #include "galois/shapes.hpp"
 #include "tensors/routines.hpp"

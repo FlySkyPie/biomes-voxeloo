@@ -1,8 +1,7 @@
+#include <catch2/catch_all.hpp>
+#include <VoxelooLightKernelry/light_kernel.hpp>
+
 #include "galois/lighting.hpp"
-
-#include <catch2/catch.hpp>
-
-#include "galois/gen/light_kernel.hpp"
 #include "tensors/sparse.hpp"
 #include "tensors/tensors.hpp"
 

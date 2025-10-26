@@ -1,7 +1,8 @@
-#include <catch2/catch.hpp>
 #include <random>
 
+#include <catch2/catch_all.hpp>
 #include <VoxelooGeometry/geometry.hpp>
+
 #include "galois/blocks.hpp"
 #include "galois/florae.hpp"
 #include "galois/groups.hpp"

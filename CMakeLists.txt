@@ -9,7 +9,7 @@ add_library(${PROJECT_NAME} SHARED src/voxeloo.cpp)
 include(cmake/CPM.cmake)
 
 CPMAddPackage("gh:FlySkyPie/biomes-voxeloo-geometry@0.1.1")
-CPMAddPackage("gh:FlySkyPie/biomes-voxeloo-light-kernelry@0.1.2")
+CPMAddPackage("gh:FlySkyPie/biomes-voxeloo-light-kernelry@0.1.3")
 
 # Add sub directories
 add_subdirectory(src/anima)
@@ -36,3 +36,4 @@ enable_testing()
 add_subdirectory(tests/biomes)
 add_subdirectory(tests/common)
 add_subdirectory(tests/gaia)
+add_subdirectory(tests/galois)

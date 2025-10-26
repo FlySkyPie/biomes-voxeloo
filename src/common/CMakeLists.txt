@@ -27,7 +27,7 @@ set(CMAKE_BUILD_TYPE debug)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
 
 CPMAddPackage("gh:FlySkyPie/biomes-voxeloo-geometry@0.1.1")
-CPMAddPackage("gh:FlySkyPie/biomes-voxeloo-light-kernelry@0.1.2")
+CPMAddPackage("gh:FlySkyPie/biomes-voxeloo-light-kernelry@0.1.3")
 # CPMAddPackage("gh:catchorg/Catch2@2.13.10")
 CPMAddPackage("gh:USCiLab/cereal@1.3.2")
 CPMAddPackage("gl:libeigen/eigen#3.4.0")
