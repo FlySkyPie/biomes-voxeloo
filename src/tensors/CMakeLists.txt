@@ -3,7 +3,7 @@ project (VoxelooTensors)
 
 # Add a library with the above sources
 add_library(${PROJECT_NAME}
-    STATIC
+    OBJECT
     succinct.cpp)
 
 include(../../cmake/CPM.cmake)

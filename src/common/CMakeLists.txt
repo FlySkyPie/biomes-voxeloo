@@ -3,7 +3,7 @@ project(VoxelooCore CXX)
 
 add_library(
     ${PROJECT_NAME} 
-    STATIC
+    OBJECT
     boxifier.cpp
     errors.cpp
     frustum.cpp
@@ -28,10 +28,8 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
 
 CPMAddPackage("gh:FlySkyPie/biomes-voxeloo-geometry@0.1.1")
 CPMAddPackage("gh:FlySkyPie/biomes-voxeloo-light-kernelry@0.1.3")
-# CPMAddPackage("gh:catchorg/Catch2@2.13.10")
 CPMAddPackage("gh:USCiLab/cereal@1.3.2")
 CPMAddPackage("gl:libeigen/eigen#3.4.0")
-# CPMAddPackage("gh:facebook/zstd@1.5.7")
 CPMAddPackage(
     NAME zstd
     GITHUB_REPOSITORY facebook/zstd
@@ -50,25 +48,15 @@ CPMAddPackage(
 CPMAddPackage("gh:martinus/robin-hood-hashing#3.11.5")
 CPMAddPackage("gh:jupp0r/prometheus-cpp@1.0.1")
 
-# Search for external dependencies
-# find_package(Catch2 REQUIRED) # @catch2
-find_package(Cereal REQUIRED) # @cereal
-find_package(Eigen3 REQUIRED) # @eigen
-find_package(ZSTD REQUIRED)  # @zstd
-# Threads for linkopts = ["-lpthread"]
-find_package(Threads REQUIRED)
-
 target_link_libraries(
     ${PROJECT_NAME}
     PRIVATE
     VoxelooGeometry
     VoxelooLightKernelry
-    # Catch2
     cereal::cereal
     robin_hood::robin_hood
     Eigen3::Eigen
-    prometheus-cpp::push
-    zstd)
+    prometheus-cpp::push)
 
 target_include_directories( ${PROJECT_NAME}
     PUBLIC ${PROJECT_SOURCE_DIR}/../../include

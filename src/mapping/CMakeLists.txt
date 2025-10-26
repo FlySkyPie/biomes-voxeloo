@@ -3,7 +3,7 @@ project (VoxelooMapping)
 
 # Add a library with the above sources
 add_library(${PROJECT_NAME}
-    STATIC
+    OBJECT
     heights.cpp)
 
 include(../../cmake/CPM.cmake)
