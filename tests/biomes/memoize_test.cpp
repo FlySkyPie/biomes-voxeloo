@@ -1,6 +1,6 @@
-#include "biomes/memoize.hpp"
+#include <catch2/catch_all.hpp>
 
-#include <catch2/catch.hpp>
+#include "biomes/memoize.hpp"
 
 using voxeloo::MemoizeAll;
 using voxeloo::MemoizeLast;

@@ -3,7 +3,7 @@ project (VoxelooGaia)
 
 # Add a library with the above sources
 add_library(${PROJECT_NAME}
-    OBJECT
+    STATIC
     light.cpp
     muck.cpp
     water.cpp)
@@ -17,7 +17,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_BUILD_TYPE debug)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
 
-CPMAddPackage("gh:catchorg/Catch2@2.13.10")
+# CPMAddPackage("gh:catchorg/Catch2@2.13.10")
 CPMAddPackage("gh:USCiLab/cereal@1.3.2")
 CPMAddPackage("gh:jupp0r/prometheus-cpp@1.0.1")
 CPMAddPackage("gh:martinus/robin-hood-hashing#3.11.5")
@@ -26,7 +26,7 @@ CPMAddPackage("gh:FlySkyPie/biomes-voxeloo-geometry@0.1.1")
 target_link_libraries(
     ${PROJECT_NAME}
     PRIVATE
-    Catch2
+    # Catch2
     cereal::cereal
     robin_hood::robin_hood
     prometheus-cpp::push)

@@ -1,13 +1,14 @@
 # Set the project name
-project (VoxelooBiomes)
+project (VoxelooBiomesTest)
 
 # Add a library with the above sources
-add_library(${PROJECT_NAME}
-    STATIC
-    biomes.cpp
-    culling.cpp
-    noise.cpp
-    shards.cpp)
+add_executable(${PROJECT_NAME}
+    biomes_bench.cpp
+    biomes_test.cpp
+    culling_test.cpp
+    memoize_test.cpp
+    rasterization_test.cpp
+    shards_test.cpp)
 
 include(../../cmake/CPM.cmake)
 
@@ -19,29 +20,31 @@ set(CMAKE_BUILD_TYPE debug)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
 
 CPMAddPackage("gh:FlySkyPie/biomes-voxeloo-geometry@0.1.1")
-# CPMAddPackage("gh:catchorg/Catch2@2.13.10")
+CPMAddPackage("gh:catchorg/Catch2@3.4.0")
 CPMAddPackage("gh:USCiLab/cereal@1.3.2")
 CPMAddPackage("gl:libeigen/eigen#3.4.0")
 CPMAddPackage("gh:martinus/robin-hood-hashing#3.11.5")
 CPMAddPackage("gh:FlySkyPie/OpenSimplexNoise@1.0.2")
+CPMAddPackage("gh:FlySkyPie/tomasakeninemoeller@1.0.0")
 
-# target_link_libraries(${PROJECT_NAME} PRIVATE VoxelooGeometry)
+find_package(Catch2 CONFIG REQUIRED) # @catch2
 
 target_link_libraries(
     ${PROJECT_NAME}
     PRIVATE
     VoxelooGeometry
-    # Catch2
     cereal::cereal
     robin_hood::robin_hood
     Eigen3::Eigen
-    OpenSimplexNoise)
+    OpenSimplexNoise
+    tomasakeninemoeller)
+
+target_link_libraries(${PROJECT_NAME} PRIVATE Catch2::Catch2WithMain)
 
 target_link_libraries(
     ${PROJECT_NAME}
-    PUBLIC
-    VoxelooCore
-    VoxelooTensors
+    PRIVATE
+    Voxeloo
 )
 
 target_include_directories(

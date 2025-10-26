@@ -2,7 +2,9 @@
 project (VoxelooAnima)
 
 # Add a library with the above sources
-add_library(${PROJECT_NAME} src/find_surfaces.cpp)
+add_library(${PROJECT_NAME}
+    STATIC
+    src/find_surfaces.cpp)
 
 include(../../cmake/CPM.cmake)
 

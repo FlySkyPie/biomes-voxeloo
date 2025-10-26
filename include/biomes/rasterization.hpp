@@ -6,12 +6,13 @@
 #include <tuple>
 #include <vector>
 
-#include "common/errors.hpp"
+#include <tomasakeninemoeller/tribox3.h>
 #include <VoxelooGeometry/geometry.hpp>
+
+#include "common/errors.hpp"
 #include "common/meshes.hpp"
 #include "common/utils.hpp"
 #include "common/voxels.hpp"
-#include "third_party/tomasakeninemoeller/tribox3.h"
 
 namespace voxeloo::rasterization {
 

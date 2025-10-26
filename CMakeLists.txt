@@ -4,7 +4,7 @@ project(Voxeloo)
 
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
-add_library(${PROJECT_NAME} SHARED)
+add_library(${PROJECT_NAME} SHARED src/voxeloo.cpp)
 
 include(cmake/CPM.cmake)
 
@@ -19,13 +19,16 @@ add_subdirectory(src/gaia)
 add_subdirectory(src/mapping)
 add_subdirectory(src/tensors)
 
-target_sources(
+target_link_libraries(
     ${PROJECT_NAME}
-    PRIVATE
-    $<TARGET_OBJECTS:VoxelooAnima>
-    $<TARGET_OBJECTS:VoxelooCore>
-    $<TARGET_OBJECTS:VoxelooBiomes>
-    $<TARGET_OBJECTS:VoxelooGaia>
-    $<TARGET_OBJECTS:VoxelooMapping>
-    $<TARGET_OBJECTS:VoxelooTensors>
+    PUBLIC
+    VoxelooAnima
+    VoxelooCore
+    VoxelooBiomes
+    VoxelooGaia
+    VoxelooMapping
+    VoxelooTensors
 )
+
+enable_testing()
+add_subdirectory(tests/biomes)

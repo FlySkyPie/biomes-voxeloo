@@ -1,9 +1,10 @@
-#include <catch2/catch.hpp>
+#include <catch2/catch_all.hpp>
 #include <tuple>
 #include <vector>
 
-#include "biomes/biomes.hpp"
 #include <VoxelooGeometry/geometry.hpp>
+
+#include "biomes/biomes.hpp"
 #include "common/transport.hpp"
 
 using Catch::Matchers::UnorderedEquals;
