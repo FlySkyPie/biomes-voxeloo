@@ -19,32 +19,28 @@ set(CMAKE_BUILD_TYPE debug)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
 
 CPMAddPackage("gh:FlySkyPie/biomes-voxeloo-geometry@0.1.1")
-# CPMAddPackage("gh:catchorg/Catch2@2.13.10")
 CPMAddPackage("gh:USCiLab/cereal@1.3.2")
 CPMAddPackage("gl:libeigen/eigen#3.4.0")
 CPMAddPackage("gh:martinus/robin-hood-hashing#3.11.5")
-CPMAddPackage("gh:FlySkyPie/OpenSimplexNoise@1.0.2")
-
-# target_link_libraries(${PROJECT_NAME} PRIVATE VoxelooGeometry)
+CPMAddPackage(
+    NAME OpenSimplexNoise
+    GITHUB_REPOSITORY "FlySkyPie/OpenSimplexNoise"
+    GIT_TAG v1.0.3
+    OPTIONS 
+        "OSN_BUILD_STATIC ON"
+        "OSN_BUILD_SHARED OFF"
+)
 
 target_link_libraries(
     ${PROJECT_NAME}
     PRIVATE
     VoxelooGeometry
-    # Catch2
     cereal::cereal
     robin_hood::robin_hood
     Eigen3::Eigen
     OpenSimplexNoise)
 
-# target_link_libraries(
-#     ${PROJECT_NAME}
-#     PUBLIC
-#     VoxelooCore
-#     VoxelooTensors
-# )
-
-target_include_directories(
+    target_include_directories(
     ${PROJECT_NAME}
     PUBLIC 
     ${PROJECT_SOURCE_DIR}/../../include
