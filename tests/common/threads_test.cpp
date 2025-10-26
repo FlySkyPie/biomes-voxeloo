@@ -1,6 +1,6 @@
 #include "common/threads.hpp"
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_all.hpp>
 #include <thread>
 
 #include "common/macros.hpp"

@@ -1,10 +1,11 @@
 #include "common/rays.hpp"
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_all.hpp>
 
 namespace voxeloo {
 
-using Catch::Detail::Approx;
+using Catch::Approx;
+// using Catch::Matchers::Approx;
 
 TEST_CASE("Test ray integration", "[all]") {
   rays::DensityMap dm;

@@ -1,9 +1,8 @@
-#include "common/bits.hpp"
-
 #include <vector>
 
-#include "catch2/catch.hpp"
+#include <catch2/catch_all.hpp>
 
+#include "common/bits.hpp"
 namespace voxeloo {
 
 TEST_CASE("Test next_bit and last_bit", "[all]") {

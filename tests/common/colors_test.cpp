@@ -1,10 +1,11 @@
 #include "common/colors.hpp"
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_all.hpp>
 
 namespace voxeloo {
 
-using Catch::Detail::Approx;
+using Catch::Approx;
+// using Catch::Matchers::Approx;
 
 TEST_CASE("Test color routines", "[all]") {
   float r = 0.1f;

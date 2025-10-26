@@ -31,7 +31,22 @@ CPMAddPackage("gh:FlySkyPie/biomes-voxeloo-light-kernelry@0.1.2")
 # CPMAddPackage("gh:catchorg/Catch2@2.13.10")
 CPMAddPackage("gh:USCiLab/cereal@1.3.2")
 CPMAddPackage("gl:libeigen/eigen#3.4.0")
-CPMAddPackage("gh:facebook/zstd@1.5.7")
+# CPMAddPackage("gh:facebook/zstd@1.5.7")
+CPMAddPackage(
+    NAME zstd
+    GITHUB_REPOSITORY facebook/zstd
+    GIT_TAG v1.5.7
+    SYSTEM YES
+    EXCLUDE_FROM_ALL YES
+    SOURCE_SUBDIR build/cmake
+    OPTIONS
+        "ZSTD_BUILD_STATIC ON"
+        "ZSTD_BUILD_SHARED OFF"
+        "ZSTD_LEGACY_SUPPORT OFF"
+        "ZSTD_BUILD_PROGRAMS OFF"
+        "ZSTD_BUILD_CONTRIB OFF"
+        "ZSTD_BUILD_TESTS OFF"
+)
 CPMAddPackage("gh:martinus/robin-hood-hashing#3.11.5")
 CPMAddPackage("gh:jupp0r/prometheus-cpp@1.0.1")
 
@@ -52,7 +67,8 @@ target_link_libraries(
     cereal::cereal
     robin_hood::robin_hood
     Eigen3::Eigen
-    prometheus-cpp::push)
+    prometheus-cpp::push
+    zstd)
 
 target_include_directories( ${PROJECT_NAME}
     PUBLIC ${PROJECT_SOURCE_DIR}/../../include

@@ -1,6 +1,6 @@
 #include "common/blocks.hpp"
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_all.hpp>
 #include <limits>
 
 #include "common/colors.hpp"
@@ -12,7 +12,7 @@
 namespace voxeloo {
 using namespace colors;
 
-using Catch::Detail::Approx;
+using Catch::Approx;
 using Catch::Matchers::Equals;
 
 auto extract_positions(const std::vector<meshes::Vertex>& vertices) {

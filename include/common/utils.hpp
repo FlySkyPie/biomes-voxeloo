@@ -6,6 +6,7 @@
 #include <numeric>
 #include <tuple>
 #include <vector>
+#include <cstdint>
 
 #include <VoxelooGeometry/geometry.hpp>
 

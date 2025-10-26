@@ -1,6 +1,6 @@
 #include "common/history.hpp"
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_all.hpp>
 
 namespace voxeloo {
 using Catch::Matchers::Equals;

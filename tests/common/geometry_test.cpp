@@ -1,9 +1,9 @@
 #include <VoxelooGeometry/geometry.hpp>
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_all.hpp>
 
 namespace voxeloo {
-using Catch::Detail::Approx;
+using Catch::Approx;
 
 TEST_CASE("Test array indexing", "[all]") {
   Vec2i u = {1, 2};

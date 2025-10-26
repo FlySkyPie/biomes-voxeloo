@@ -32,3 +32,4 @@ target_link_libraries(
 
 enable_testing()
 add_subdirectory(tests/biomes)
+add_subdirectory(tests/common)

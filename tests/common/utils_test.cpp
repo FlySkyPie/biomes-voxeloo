@@ -1,10 +1,11 @@
 #include "common/utils.hpp"
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_all.hpp>
 
 namespace voxeloo {
 
-using Catch::Detail::Approx;
+using Catch::Approx;
+// using Catch::Matchers::Approx;
 
 TEST_CASE("Test lerp", "[all]") {
   REQUIRE(lerp(1.0f, 3.0f, 0.0f) == Approx(1.0f));

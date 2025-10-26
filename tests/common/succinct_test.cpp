@@ -1,7 +1,7 @@
 #include "common/succinct.hpp"
 
 #include <algorithm>
-#include <catch2/catch.hpp>
+#include <catch2/catch_all.hpp>
 #include <unordered_map>
 
 #include "common/random.hpp"

@@ -2,7 +2,7 @@
 
 #include <vector>
 
-#include "catch2/catch.hpp"
+#include <catch2/catch_all.hpp>
 #include <VoxelooGeometry/geometry.hpp>
 
 namespace voxeloo::quadifier {

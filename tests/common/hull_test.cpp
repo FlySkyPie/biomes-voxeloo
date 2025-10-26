@@ -2,13 +2,14 @@
 
 #include <vector>
 
-#include "catch2/catch.hpp"
+#include <catch2/catch_all.hpp>
 #include <VoxelooGeometry/geometry.hpp>
 #include "common/random.hpp"
 
 namespace voxeloo::hull {
 
-using Catch::Equals;
+// using Catch::Equals;
+using Catch::Matchers::Equals;
 using Catch::Matchers::UnorderedEquals;
 
 // Shifts the array until the lowest index is in the first position.
