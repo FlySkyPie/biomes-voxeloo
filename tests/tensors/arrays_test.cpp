@@ -1,6 +1,6 @@
 #include "tensors/arrays.hpp"
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_all.hpp>
 
 #include <VoxelooGeometry/geometry.hpp>
 
@@ -109,7 +109,7 @@ TEST_CASE("Test array scanner", "[all]") {
   REQUIRE(scanner.done());
 }
 
-TEST_CASE("Test array merge routine", "[all]") {
+TEST_CASE("Test array scanner routine", "[all]") {
   auto array_1 = [] {
     ArrayBuilder<int> builder;
     builder.add(1, 1);
