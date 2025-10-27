@@ -34,6 +34,15 @@ CPMAddPackage(
 )
 CPMAddPackage("gh:martinus/robin-hood-hashing#3.11.5")
 CPMAddPackage("gh:jupp0r/prometheus-cpp@1.0.1")
+CPMAddPackage(
+    NAME OpenSimplexNoise
+    GITHUB_REPOSITORY "FlySkyPie/OpenSimplexNoise"
+    GIT_TAG v1.0.3
+    OPTIONS 
+        "OSN_BUILD_STATIC ON"
+        "OSN_BUILD_SHARED OFF"
+)
+CPMAddPackage("gh:FlySkyPie/tomasakeninemoeller@1.0.0")
 
 find_package(Cereal REQUIRED) # @cereal
 find_package(ZSTD REQUIRED)  # @zstd
@@ -62,13 +71,17 @@ add_library(${PROJECT_NAME} STATIC
 
 target_link_libraries(
     ${PROJECT_NAME}
-    PRIVATE
+    PUBLIC
     VoxelooGeometry
-    VoxelooLightKernelry
-    zstd
     cereal::cereal
     robin_hood::robin_hood
+    OpenSimplexNoise
     Eigen3::Eigen
+    tomasakeninemoeller
+
+    PRIVATE
+    VoxelooLightKernelry
+    zstd
     prometheus-cpp::push
 )
 

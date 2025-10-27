@@ -5,8 +5,9 @@
 #include <tuple>
 #include <vector>
 
-#include "common/frustum.hpp"
 #include <VoxelooGeometry/geometry.hpp>
+
+#include "common/frustum.hpp"
 #include "common/macros.hpp"
 #include "common/transport.hpp"
 

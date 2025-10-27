@@ -4,8 +4,9 @@
 #include <cstdint>
 #include <vector>
 
-#include "common/errors.hpp"
 #include <VoxelooGeometry/geometry.hpp>
+
+#include "common/errors.hpp"
 #include "common/hull.hpp"
 #include "tensors/tensors.hpp"
 

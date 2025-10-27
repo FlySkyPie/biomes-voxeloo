@@ -1,11 +1,12 @@
 #pragma once
 
-#include <Eigen/Geometry>
 #include <algorithm>
 #include <memory>
 #include <vector>
 
+#include <Eigen/Geometry>
 #include <VoxelooGeometry/geometry.hpp>
+
 #include "common/spatial.hpp"
 
 namespace voxeloo::primitives {

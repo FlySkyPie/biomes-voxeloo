@@ -7,13 +7,14 @@
 #include <tuple>
 #include <vector>
 
-#include "cereal/types/string.hpp"
-#include "cereal/types/vector.hpp"
+#include <VoxelooGeometry/geometry.hpp>
+#include <cereal/types/string.hpp>
+#include <cereal/types/vector.hpp>
+
 #include "biomes/shards.hpp"
 #include "common/boxifier.hpp"
 #include "common/colors.hpp"
 #include "common/frustum.hpp"
-#include <VoxelooGeometry/geometry.hpp>
 #include "common/macros.hpp"
 #include "common/quadifier.hpp"
 #include "common/spatial.hpp"

@@ -1,7 +1,8 @@
 #pragma once
 
-#include "biomes/biomes.hpp"
 #include <VoxelooGeometry/geometry.hpp>
+
+#include "biomes/biomes.hpp"
 #include "common/spatial.hpp"
 #include "galois/terrain.hpp"
 #include "tensors/tensors.hpp"
