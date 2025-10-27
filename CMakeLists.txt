@@ -3,6 +3,7 @@ cmake_minimum_required (VERSION 3.5)
 project(Voxeloo)
 
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+option(VOXELOO_BUILD_TEST "BUILD TEST LIBRARIES" ON)
 
 # add_library(${PROJECT_NAME} STATIC src/voxeloo.cpp)
 
@@ -47,7 +48,7 @@ add_subdirectory(src/gaia)
 add_subdirectory(src/mapping)
 add_subdirectory(src/tensors)
 
-add_subdirectory(py_ext)
+# add_subdirectory(py_ext)
 
 add_library(${PROJECT_NAME} STATIC 
     src/voxeloo.cpp
@@ -73,9 +74,11 @@ target_link_libraries(
 
 # set_target_properties(${PROJECT_NAME} PROPERTIES CXX_VISIBILITY_PRESET "hidden")
 
-enable_testing()
-add_subdirectory(tests/biomes)
-add_subdirectory(tests/common)
-add_subdirectory(tests/gaia)
-add_subdirectory(tests/galois)
-add_subdirectory(tests/tensors)
+if(VOXELOO_BUILD_TEST)
+    enable_testing()
+    add_subdirectory(tests/biomes)
+    add_subdirectory(tests/common)
+    add_subdirectory(tests/gaia)
+    add_subdirectory(tests/galois)
+    add_subdirectory(tests/tensors)
+endif()
