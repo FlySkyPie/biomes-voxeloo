@@ -1,6 +1,9 @@
 cmake_minimum_required (VERSION 3.5)
 
-project(Voxeloo)
+project(
+    Voxeloo
+    VERSION 0.1.0
+    LANGUAGES CXX)
 
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 option(VOXELOO_BUILD_TEST "BUILD TEST LIBRARIES" ON)
@@ -99,7 +102,7 @@ install(
 )
 
 install(
-    TARGETS ${PROJECT_NAME}
+    TARGETS ${PROJECT_NAME} cereal
     EXPORT ${PROJECT_NAME}Targets
 )
 
