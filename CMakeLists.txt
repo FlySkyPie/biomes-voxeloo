@@ -47,10 +47,10 @@ CPMAddPackage(
 )
 CPMAddPackage("gh:FlySkyPie/tomasakeninemoeller@1.0.0")
 
-find_package(Cereal REQUIRED) # @cereal
-find_package(ZSTD REQUIRED)  # @zstd
-find_package(Eigen3 REQUIRED) # @eigen
-find_package(Threads REQUIRED)
+# find_package(Cereal REQUIRED) # @cereal
+# find_package(ZSTD REQUIRED)  # @zstd
+# find_package(Eigen3 REQUIRED) # @eigen
+# find_package(Threads REQUIRED)
 
 # Add sub directories
 add_subdirectory(src/anima)
