@@ -1,4 +1,4 @@
-#include "find_surfaces.hpp"
+#include "anima/find_surfaces.hpp"
 
 namespace voxeloo::anima {
 
