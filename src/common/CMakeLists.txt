@@ -31,7 +31,7 @@ CPMAddPackage("gh:FlySkyPie/biomes-voxeloo-light-kernelry@0.1.3")
 CPMAddPackage("gh:USCiLab/cereal@1.3.2")
 CPMAddPackage("gl:libeigen/eigen#3.4.0")
 CPMAddPackage(
-    NAME zstd
+    # NAME zstd
     GITHUB_REPOSITORY facebook/zstd
     GIT_TAG v1.5.7
     SYSTEM YES
@@ -56,7 +56,8 @@ target_link_libraries(
     cereal::cereal
     robin_hood::robin_hood
     Eigen3::Eigen
-    prometheus-cpp::push)
+    prometheus-cpp::push
+    libzstd_static)
 
 target_include_directories( ${PROJECT_NAME}
     PUBLIC ${PROJECT_SOURCE_DIR}/../../include

@@ -84,7 +84,7 @@ target_link_libraries(
 
     PRIVATE
     VoxelooLightKernelry
-    zstd
+    libzstd_static
     prometheus-cpp::push
 )
 

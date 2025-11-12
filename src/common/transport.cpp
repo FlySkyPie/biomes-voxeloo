@@ -1,7 +1,7 @@
 #include "common/transport.hpp"
 
 #include <string>
-#include <lib/zstd.h>
+#include <zstd.h>
 
 #include "common/errors.hpp"
 
