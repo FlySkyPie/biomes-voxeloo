@@ -21,11 +21,8 @@ CPMAddPackage(
         "EIGEN_BUILD_DOC OFF"
 )
 CPMAddPackage(
-    NAME zstd
     GITHUB_REPOSITORY facebook/zstd
     GIT_TAG v1.5.7
-    SYSTEM YES
-    EXCLUDE_FROM_ALL YES
     SOURCE_SUBDIR build/cmake
     OPTIONS
         "ZSTD_BUILD_STATIC ON"
@@ -46,11 +43,6 @@ CPMAddPackage(
         "OSN_BUILD_SHARED OFF"
 )
 CPMAddPackage("gh:FlySkyPie/tomasakeninemoeller@1.0.0")
-
-find_package(Cereal REQUIRED) # @cereal
-find_package(ZSTD REQUIRED)  # @zstd
-find_package(Eigen3 REQUIRED) # @eigen
-find_package(Threads REQUIRED)
 
 # Add sub directories
 add_subdirectory(src/anima)
@@ -84,7 +76,7 @@ target_link_libraries(
 
     PRIVATE
     VoxelooLightKernelry
-    zstd
+    libzstd_static
     prometheus-cpp::push
 )
 
